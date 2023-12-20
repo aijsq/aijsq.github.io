@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>计算器</title>
+    <style>
+        .main {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #ccc;
+            border-radius: 12px;
+            width: 30%;
+            height: 300px;
+            padding: 20px;
+        }
+
+        .main h3 {
+            color: #fff;
+        }
+
+        .integer {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .integer input {
+            width: 80%;
+            margin: 10px 0;
+            outline: none;
+            padding: 10px 8px;
+            border: 1px solid #1d1d1d;
+            border-radius: 8px;
+        }
+
+        button {
+            padding: 10px 8px;
+            border-radius: 8px;
+            border: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+        <h3>请输入三个整数：</h3>
+        <div class="integer">
+            <input type="number" name="num1" id="num1">
+            <input type="number" name="num2" id="num2">
+            <input type="number" name="num3" id="num3">
+        </div>
+        <button id="btn">计算平均值！</button>
+    </div>
+    <script src="./js/calculator.js"></script>
+</body>
+
+</html>
