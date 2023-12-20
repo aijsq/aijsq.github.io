@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+
+	<title>爱乐之城</title>
+
+	<!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/slide.css">
+	<link href="css/image-effect.css" rel="stylesheet">
+
+	<!-- Custom Fonts -->
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+	<!-- jQuery -->
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/responsiveslides.min.js"></script>
+	<script>
+		$(function () {
+			// Slideshow 4
+			$("#slider4").responsiveSlides({
+				auto: true,
+				pager: false,
+				nav: true,
+				speed: 500,
+				namespace: "callbacks",
+				before: function () {
+					$('.events').append("<li>before event fired.</li>");
+				},
+				after: function () {
+					$('.events').append("<li>after event fired.</li>");
+				}
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<!-- Navigation -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<!-- Nav -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">爱乐之城</a>
+			</div>
+			<!-- Nav collapse -->
+			<div class="collapse navbar-collapse" id="menu">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#intro">首页</a></li>
+					<li><a href="#breed">主演</a></li>
+					<li><a href="#classes">演员简介</a></li>
+					<li><a href="#show">电影精彩部分</a></li>
+					<li><a href="#service">电影视觉和色彩</a></li>
+					<li><a href="#contact-form">联系我</a></li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container -->
+	</nav>
+	<!-- Navigation -->
+
+	<!-- Header -->
+	<header id="intro" class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="callbacks_container">
+					<ul class="rslides" id="slider4">
+						<li>
+							<img src="images/banner1.jpg" alt="">
+							<div class="caption">
+								<p>在格里菲斯天文台的浪漫之舞 </p>
+							</div>
+						</li>
+						<li>
+							<img src="images/banner2.jpg" alt="">
+							<div class="caption">
+								<p>结尾给出了一个虚构的梦幻场景，展示了如果主人公没有分开，他们的生活会是怎样的。</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/banner3.jpg" alt="">
+							<div class="caption">
+								<p>这个场景既是对他们曾经的爱情的致敬，也是对他们最终实现梦想的祝福。</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Header -->
+
+
+	<!-- Content -->
+	<div id="page-content" class="index-page">
+
+		<!-- Content Box 01 -->
+		<section class="box-content box-1" id="breed">
+			<div class="container">
+				<div class="row heading">
+					<div class="col-lg-12">
+						<h2>主要演员</h2>
+						<hr class="line01">
+						<div class="intro">Principal actor</div>
+					</div>
+				</div>
+				<div class="row">
+					<ul class="ch-grid">
+						<li>
+							<div class="ch-item ch-img-1">
+								<div class="ch-info-wrap">
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-1"></div>
+										<div class="ch-info-back">
+											<h3>瑞恩·高斯林</h3>
+											<p><a href="">More Details</a></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="ch-item ch-img-2">
+								<div class="ch-info-wrap">
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-2"></div>
+										<div class="ch-info-back">
+											<h3>艾玛·斯通</h3>
+											<p><a href="">More Details</a></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="ch-item ch-img-3">
+								<div class="ch-info-wrap">
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-3"></div>
+										<div class="ch-info-back">
+											<h3>约翰·传奇</h3>
+											<p><a href="">More Details</a></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="ch-item ch-img-4">
+								<div class="ch-info-wrap">
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-4"></div>
+										<div class="ch-info-back">
+											<h3>罗丝玛丽·德薇特</h3>
+											<p><a href="">More Details</a></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<!-- Content Box 02 -->
+		<section class="box-content box-2 box-style" id="classes">
+			<div class="container ">
+				<div class="row heading">
+					<div class="col-lg-12 ">
+						<h2>主要演员简介</h2>
+						<hr class="line02">
+						<div class="intro">Brief introduction of main actors</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="box-item">
+							<img src="images/8.jpg" class="img-circle f-right">
+							瑞恩·高斯林（Ryan Gosling），1980年11月12日出生于加拿大安大略省，加拿大演员、导演、歌手。1996年，参演个人首部电影《Frankenstein and
+							Me》。2000年，参演运动传记电影《光辉岁月》。2001年，凭借剧情电影《信徒》入围第17届独立精神奖最佳男主角奖。2004年，主演爱情电影《恋恋笔记本》，他凭借该片获得第7届青少年选择奖最佳剧情电影男演员奖。2006年，由其主演的剧情电影《半个尼尔森》上映，他凭借该片入围第79届奥斯卡金像奖最佳男主角奖。2007年，主演惊悚悬疑电影《破绽》，他凭借该片入围第9届青少年选择奖最佳恐怖/悬疑电影男演员奖。2010年，凭借爱情电影《蓝色情人节》入围第68届美国金球奖电影类-剧情类最佳男主角奖
+							。2011年，由其主演的喜剧电影《疯狂愚蠢的爱》上映，他凭借该片入围第69届美国金球奖电影类-音乐喜剧类最佳男主角奖
+							。2014年，自编自导悬疑电影《迷河》，该片入围第67届戛纳国际电影节一种关注单元-一种关注大奖。2016年，凭借喜剧歌舞电影《爱乐之城》入围第89届奥斯卡金像奖最佳男主角奖
+							，获得第74届美国金球奖电影类-音乐喜剧类最佳男主角奖
+							。2019年，凭借传记电影《登月第一人》入围第24届评论家选择奖最佳男主角奖。2020年，主演科幻冒险电影《挽救计划》。
+						</div>
+						<div class="box-item">
+							<img src="images/9.jpg" class="img-circle f-right">
+							艾玛·斯通（Emma Stone），1988年11月6日出生于美国亚利桑那州斯科茨代尔，美国女演员。
+							2005年，参加真人秀节目《寻找帕拉特里德家庭》。2007年，出演青春喜剧电影《太坏了》。2009年，出演恐怖电影《僵尸之地》
+							，她凭借该片入围第12届青少年选择奖最佳喜剧电影女演员奖。2010年，凭借青春喜剧电影《绯闻计划》入围第68届金球奖喜剧类最佳女主角奖
+							。2011年，凭借爱情电影《疯狂愚蠢的爱》入围第21届MTV电影奖最佳女演员奖。2012年，由其主演的科幻动作电影《超凡蜘蛛侠》上映
+							，她凭借该片入围第39届人民选择奖最受欢迎电影女演员奖。
+							2014年，凭借喜剧电影《鸟人》入围第87届奥斯卡金像奖最佳女配角奖 。2015年，由其出演的爱情喜剧电影《阿罗哈》上映 ，她凭借该片入围第17届青少年选择奖最佳喜剧电影女演员奖
+							。2017年，凭借音乐喜剧电影《爱乐之城》获得第89届奥斯卡金像奖最佳女主角奖。2018年，凭借剧情电影《宠儿》入围第76届美国电影电视金球奖电影类最佳女配角奖
+							。2019年，出演动作喜剧电影《僵尸之地2》
+							。2020年，为《疯狂原始人2：新纪元》配音。
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="box-item">
+							<img src="images/10.jpg" class="img-circle f-left">
+							约翰·传奇（John Legend），1978年12月28日出生于美国俄亥俄州斯普林菲尔德，美国男歌手、词曲作者、钢琴演奏者、制作人，毕业于宾夕法尼亚大学。
+							2015年，为电影《塞尔玛》演唱的主题曲《Glory》获得了第87届奥斯卡金像奖最佳原创歌曲。2016年，发行第五张录音室专辑《Darkness and Light》
+							；同年，出演了爱情歌舞电影《爱乐之城》
+							。2017年，入选《时代周刊》年度全球重要影响力百人榜“艺术家组” ；同年，其参与制作的话剧《吉特尼》获得了第71届托尼奖最佳复排话剧
+							。2018年，凭借现场摇滚音乐剧《耶稣基督万世巨星现场音乐会》获得第70届艾美奖最佳综艺特辑，从而完成了“EGOT”全满贯
+							[15]。2020年，凭借歌曲《HIGHER》获得第62届格莱美奖最佳说唱/演唱表演
+							；同年，发行第七张录音室专辑《Bigger Love》，该专辑获得了第63届格莱美奖最佳R&B专辑 [100]。2022年，发行第八张录音室专辑《LEGEND》。
+						</div>
+						<div class="box-item">
+							<img src="images/11.jpg" class="img-circle f-left">
+							罗丝玛丽·德薇特（Rosemarie DeWitt），1971年10月26日生于美国纽约州纽约市皇后区法拉盛（Flushing, Queens, New York City, New
+							York, USA
+							），美国影视女演员，毕业于霍夫斯特拉大学新学院（New College of Hofstra University）。
+							独立精神奖 Best Supporting Female(提名)蕾切尔的婚礼(2008)
+							广播影评人协会奖 Best Acting Ensemble(提名)蕾切尔的婚礼(2008)
+							Vancouver Film Critics Circle 最佳女配角蕾切尔的婚礼(2008)
+							Santa Barbara International Film Festival Virtuoso Award。
+							金卫星奖 最佳女配角蕾切尔的婚礼(2008)
+							芝加哥影评人协会奖 最佳女配角(提名)蕾切尔的婚礼(2008)
+							多伦多影评人协会奖 Best Supporting Performance, Female蕾切尔的婚礼(2008)
+							Washington DC Area Film Critics Association Awards 最佳女配角蕾切尔的婚礼(2008)
+							Gotham Awards Breakthrough Award(提名)蕾切尔的婚礼(2008)
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-12 center">
+						<a href="#" class="btn btn-1">More Details</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Content Box 03 -->
+		<section class="box-content box-3" id="show">
+			<div class="container">
+				<div class="row heading">
+					<div class="col-lg-12">
+						<h2>电影精彩部分</h2>
+						<hr class="line01">
+						<div class="intro">The wonderful part of the movie</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8">
+						<div class="row news-item-1">
+							<div class="col-md-6">
+								<a href="#"><img src="images/12.jpg" /></a>
+							</div>
+							<div class="col-md-6">
+								<h3><a href="#">爱乐之城</a></h3>
+								<div class="info"><a href="#">达米恩·查泽雷执导电影</a>2016年2016年12月16日在美国上映</div>
+								<p>该片讲述了一段发生在洛杉矶的浪漫爱情故事，两位主人公在爱情中为了追梦，而在道路上相互鼓励成就彼此的故事</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-4 news-item-2">
+								<a href="#"><img src="images/13.jpg" /></a>
+								<h4><a href="#">A little chance encounter…
+										could be the one you’ve waited for.</a></h4>
+							</div>
+							<div class="col-xs-4 news-item-2">
+								<a href="#"><img src="images/15.jpg" /></a>
+								<h4><a href="#">And when they let you down
+										you get up off the ground，
+										cause morning rolls around
+										and it’s another day of sun.</a></h4>
+							</div>
+							<div class="col-xs-4 news-item-2">
+								<a href="#"><img src="images/14.jpg" /></a>
+								<h4><a href="#">Without a nickel to my name hopped a bus，here I came.
+										Could be brave or just insane，we’ll have to see.</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<a href="#"><img src="images/16.jpg" /></a>
+					</div>
+				</div>
+				<div class="row">
+					<video style="width: 100%; margin: 10px 0;" src="./video/love.mp4" controls>
+
+					</video>
+				</div>
+			</div>
+		</section>
+
+		<!-- Content Box 04 -->
+		<section class="box-content box-4 box-style" id="service">
+			<div class="container">
+				<div class="row heading">
+					<div class="col-lg-12">
+						<h2>电影视觉和色彩</h2>
+						<hr class="line02">
+						<div class="intro">Film vision and color</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="box-item">
+							<img src="images/server01.jpg">
+							<div class="service_txt">
+								<p>使用了大量的鲜艳、对比强烈的色彩，营造出一种梦幻和浪漫的氛围。</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="box-item">
+							<img src="images/server02.jpg">
+							<div class="service_txt">
+								<p>影片中运用了大量长镜头和穿梭镜头，增加了电影的动感和视觉冲击</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="box-item">
+							<img src="images/server03.jpg">
+							<div class="service_txt">
+								<p>电影的取景也非常用心，它利用了洛杉矶的多个地标性的景点，如天文台和栈桥等，展现了这片“La La Land”的魅力。</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="box-item">
+							<img src="images/server04.jpg">
+							<div class="service_txt">
+								<p>电影的取景也非常用心，它利用了洛杉矶的多个地标性的景点，如天文台和栈桥等，展现了这片“La La Land”的魅力。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Content Box 05 -->
+		<section class="box-content box-5" id="contact-form">
+			<div class="container">
+				<div class="row heading">
+					<div class="col-lg-12">
+						<h2>联系我</h2>
+						<hr class="line01">
+					</div>
+				</div>
+				<div class="row contact">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="row">
+							<div class="col-md-6 contact-item">
+								<img src="./images/phone-fill.png" alt="">
+								<p>：010-88888888</p>
+							</div>
+							<div class="col-md-6  contact-item">
+								<img src="./images/email-fill.png" alt="">
+								<p>：3313931040@qq.com</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row heading">
+					<div class="col-lg-12">
+						<h2>留言</h2>
+						<hr class="line01">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<form name="form1" id="ff" method="post" action="#">
+							<div class="row">
+								<div class="col-md-6 form-group">
+									<input type="text" class="form-control input-lg" name="name" id="name"
+										placeholder="您的姓名" required="required" />
+								</div>
+								<div class="col-md-6 form-group">
+									<input type="email" class="form-control input-lg" name="email" id="email"
+										placeholder="您的邮箱" required="required" />
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="form-group">
+										<textarea name="message" id="message" class="form-control" rows="4" cols="25"
+											required placeholder="留言"></textarea>
+									</div>
+									<button type="submit" class="btn btn-1 btn-lg btn-block" name="btnContactUs"
+										id="btnContactUs">
+										发送</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<!-- Footer -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<p class="copyright">Copyright &copy; 2019.Company name All rights reserved.</p>
+				</div>
+				<div class="col-md-4">
+					<ul class="list-inline social-buttons">
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<ul class="list-inline">
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Terms of Use</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer -->
+	<!-- 背景音乐 -->
+	<audio autoplay="autoplay" controls class="audio" loop>
+		<source src="./audio/Mercuzio Pianist,Justin Hurwitz - Mia & Sebastian's Theme.mp3">
+		</source>
+	</audio>
+	<div class="backtop">
+		<img src="./images/backtop.png" alt="">
+	</div>
+	<!-- Bootstrap Core JavaScript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/arrow37.js"></script>
+	<style>
+		.copyrights {
+			text-indent: -9999px;
+			height: 0;
+			line-height: 0;
+			font-size: 0;
+			overflow: hidden;
+		}
+
+		.audio {
+			display: none;
+		}
+	</style>
+	<script>
+		const audio = document.querySelector(".audio");
+		window.addEventListener("scroll", function () {
+			audio.play();
+		});
+	</script>
+
+</body>
+
+</html>
