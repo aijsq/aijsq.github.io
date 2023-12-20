@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  width: 980px;
+  margin: 0 auto;
+  background-color: #cccacf;
+  border: 1px solid #000;
+  padding: 20px;
+}
+
+header {
+  margin-top: 15px;
+  padding: 5px 20px 20px 20px;
+  background-color: #fb0102;
+  overflow: hidden;
+  color: #fdff06;
+}
+
+#logo {
+  box-sizing: border-box;
+  width: 30%;
+  height: 45px;
+  float: left;
+  margin-top: 15px;
+  background-color: #fdff06;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  color: #000;
+}
+
+#banner {
+  box-sizing: border-box;
+  margin-top: 15px;
+  float: right;
+  width: 60%;
+  height: 45px;
+  background-color: #0100fb;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+#menu {
+  box-sizing: border-box;
+  margin-top: 70px;
+  width: 100%;
+  height: 45px;
+  background-color: #033200;
+  border: 1px solid #000;
+  line-height: 45px;
+  padding-left: 15px;
+  color: #fff;
+}
+main {
+  color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #006401;
+  overflow: hidden;
+}
+
+#sider {
+  box-sizing: border-box;
+  margin-top: 10px;
+  float: left;
+  width: 26%;
+  height: 360px;
+  background-color: #0100fb;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 20px;
+}
+#content {
+  box-sizing: border-box;
+  margin-top: 10px;
+  float: right;
+  width: 70%;
+  height: 360px;
+  background-color: #00ccff;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+footer {
+  box-sizing: border-box;
+  margin-top: 30px;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  padding-left: 10px;
+  color: #fff;
+  background-color: #fb0200;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录框的制作</title>
+    <style>
+        .box {
+            width: 500px;
+            height: 300px;
+            margin: 0 auto;
+            background-color: #ebf4fb;
+            border: 3px dotted #8bd1fc;
+            padding: 20px;
+        }
+
+        .box h3 {
+            padding-bottom: 15px;
+            text-align: center;
+            border-bottom: 1px solid #8bd1fc;
+        }
+
+        .box form {
+            padding-left: 40px;
+        }
+
+        .box .item {
+            margin: 10px 0;
+        }
+
+        .box .item label {
+            width: 65px;
+            text-align: left;
+            display: inline-block;
+        }
+
+        .box .item input {
+            padding: 10px 28px;
+            width: 200px;
+            outline: none;
+            font-size: 18px;
+        }
+
+        .box .btn {
+            margin: 20px 70px;
+        }
+
+        .btn button {
+            padding: 10px 20px;
+            margin-right: 10px;
+        }
+
+        .btn button:hover {
+            background-color: #a9daf5;
+            border: 1px solid #3ea8ea;
+        }
+
+        #user {
+            background: url('./img/_User\ Groups.png') no-repeat left center;
+            background-size: 24px;
+        }
+
+        #pwd {
+            background: url('./img/suo.png') no-repeat left center;
+            background-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h3>用户登录</h3>
+        <form action="#">
+            <div class="item">
+                <label>用户名：</label>
+                <input type="text" name="" id="user">
+            </div>
+            <div class="item">
+                <label><span>密</span><span>码：</span></label>
+                <input type="password" name="" id="pwd">
+            </div>
+            <div class="btn">
+                <button>登录</button>
+                <button>注册</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
